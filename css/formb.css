@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  background-color: #222629;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  background-image: url('images/Logo3.png');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.title {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: grid;
+  grid-template-rows: 50vh;
+  grid-template-columns: 22fr 1fr;
+  align-items: center;
+  padding: 20px;
+  width: 50%;
+  box-sizing: border-box;
+}
+/* form */
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+input[type=text], input[type=password], select {
+    background-color: #474b4f;
+    color: white;
+    border: none;
+    font-size: 100%;
+    letter-spacing: 0.2em;
+}
+
+input[type=submit] {
+    background-color: #474b4f;
+    color: white;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type=submit]:hover {
+    background-color: #3278c2;
+    color: white;
+}
+
+fieldset {
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+}

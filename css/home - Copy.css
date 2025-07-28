@@ -1,0 +1,43 @@
+/*table*/
+input,select,option{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+input[type=text],input[type=password],select{
+    background-color: #474b4f;
+    color: white;
+    border: none;
+    font-size: 100%;
+    letter-spacing: 0.2em;
+}
+.main{
+	display: grid;
+	justify-content: center;
+	padding: 30px;
+}
+.main table{
+	margin: 50px auto;
+}
+.main table, th, td {
+    border-collapse: collapse;
+    text-align: left;
+    table-layout: fixed;
+    padding: 8px 30px;
+    width: 50%;
+}
+
+.main th{
+	color: #3278c2;
+}
+
+.main tr:hover {
+    background-color: #474b4f;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}
